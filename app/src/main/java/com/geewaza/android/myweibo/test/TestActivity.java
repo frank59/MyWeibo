@@ -20,6 +20,7 @@ public class TestActivity extends Activity {
 
 	private Object[][] button_jump_map = {
 			{R.id.test_button1, Test01Activity.class},
+			{R.id.test_button2, Test02Activity.class},
 	};
 
 	private static Map<View, String> activity_map = new HashMap<>();

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.geewaza.android.myweibo.test.MarqueeTextView
+        android:id="@+id/test02_textview01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="@string/test02_textview_text"
+        />
+
+    <com.geewaza.android.myweibo.test.MarqueeTextView
+        android:id="@+id/test02_textview02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:focusable="true"
+        android:ellipsize="marquee"
+        android:focusableInTouchMode="true"
+        android:text="@string/test02_textview_text"
+        />
+
+</LinearLayout>

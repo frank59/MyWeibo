@@ -5,4 +5,6 @@
     <string name="action_settings">Settings</string>
 
     <string name="test_button1_text">test1</string>
+
+    <string name="test02_textview_text">这是一个TextView，它的文字非常长，长到一行根本显示不全。这可怎么办呢？</string>
 </resources>

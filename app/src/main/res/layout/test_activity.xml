@@ -8,5 +8,10 @@
         android:id="@+id/test_button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/test_button1_text"/>
+        android:text="test01_activity"/>
+    <Button
+        android:id="@+id/test_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test02_activity"/>
 </LinearLayout>
