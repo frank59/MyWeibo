@@ -3,14 +3,10 @@ package com.geewaza.android.myweibo.test;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.Button;
 
 import com.geewaza.android.myweibo.R;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * Created by wangh on 2016/4/30.
@@ -19,11 +15,10 @@ public class TestActivity extends Activity {
 
 
 	private Object[][] button_jump_map = {
-			{R.id.test_button1, Test01Activity.class},
-			{R.id.test_button2, Test02Activity.class},
+			{R.id.test_button01, Test01Activity.class},
+			{R.id.test_button02, Test02Activity.class},
+			{R.id.test_button03, Test03Activity.class},
 	};
-
-	private static Map<View, String> activity_map = new HashMap<>();
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
